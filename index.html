@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap1/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap1/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!--navbar main-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-teal">
+        <div class="container">
+            <a href="index.html" class="navbar-brand me-auto fw-bold">
+                <i class="bi bi-suitcase2-fill"></i>Travel Yari</a>
+                <button class="navbar-toggler" data-toggle="colllapse" data-target="#travel-navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+        <div class="colllapse navbar-collapse" id="travel-navbar">
+            <ul class="navbar-nav ms-auto p-2">
+                <li class="nav-item px-3">
+                    <a href="#" class="nav-link fw-bold text-white">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="#" class="nav-link fw-bold text-white">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link fw-bold text-white">Visiting Spot</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="#" class="nav-link fw-bold text-white">Gallery</a>
+                </li>
+
+                <li class="nav-item px-3">
+                    <a href="#" class="nav-link fw-bold text-white">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+    </nav>
+            
+  
+    <!--carosel-slider-->
+    <div class="carousel slide" id="travel-slider" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#travel-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#travel-slider" data-slide-to="1"></li>
+          <li data-target="#travel-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="imgfortravel/travel1.jpeg" alt="" class="img-fluid w-100">
+               <div class="carousel-caption text-left animate zoomIn delay-1s">
+                  <h5 class="display-4 fw-bold">Feel The Joy</h5>
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur atque ex aliquid placeat officia quos sapiente? Veritatis, quam iusto.</p>
+                  <button class="btn btn-teal">Read More</button>
+               </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgfortravel/travel2.webp" alt="" class="img-fluid w-100">
+                <div class="carousel-caption text-left animate zoomIn delay-1s">
+                  <h5 class="display-4 fw-bold">Ultimate Destination</h5>
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur atque ex aliquid placeat officia quos sapiente? Veritatis, quam iusto.</p>
+                  <button class="btn btn-teal">Read More</button>
+               </div>
+             </div>
+             <div class="carousel-item">
+                <img src="imgfortravel/travel3.jpeg" alt="" class="img-fluid w-100">
+                <div class="carousel-caption text-left animate zoomIn delay-1s">
+                  <h5 class="display-4 fw-bold">Be Relaxed In Nature</h5>
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur atque ex aliquid placeat officia quos sapiente? Veritatis, quam iusto.</p>
+                  <button class="btn btn-teal">Read More</button>
+               </div>
+             </div>
+          </div>
+    </div>
+  </section>
+
+
+
+
+
+<!--search section-->
+<section class="p-3 bg-teal text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h5 class="display-4">Search Your Destination</h5>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt harum libero laborum voluptas tenetur ad blanditiis earum cumque. Voluptatum, consequatur.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <input type="search" class="form-control" placeholder="Paris">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--card-section-->
+<section class="bg-dark p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="card text-center">
+                    <div class="card-body">
+                        <i class="bi bi-cursor-fill bi-4x text-teal fa-2x"></i>
+                        <p class="h2">Pick Location</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt neque pariatur reiciendis omnis beatae ab perferendis quasi assumenda laudantium.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <i class="bi bi-building-fill text-teal fa-2x"></i>
+                          <p class="h2">Shop Travel</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt neque pariatur reiciendis omnis beatae ab perferendis quasi assumenda laudantium.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <i class="bi bi-airplane-fill text-teal fa-2x"></i>
+                          <p class="h2">Fly Cheap</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt neque pariatur reiciendis omnis beatae ab perferendis quasi assumenda laudantium.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+</section>
+
+
+
+<!--popular places-->
+  <section class="p-3">
+    <div class="container">
+    <div class="row">
+        <div class="col">
+           <h5 class="display-4 fw-bold text-center">
+            <span class="text-teal">Popular</span> Places
+           </h5>
+           <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, blanditiis.</p>
+        </div>
+    </div>
+
+    
+
+ <!--card-images 3-->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                        <img src="imgfortravel/travel11.jpeg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <h3 class="card-title">Munnar,Kerala</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dicta laboriosam veritatis temporibus fugit magnam vel modi eos aperiam maiores. Doloribus architecto consectetur perferendis corrupti optio, illum quas tempora laudantium?</p>
+                            <button class="btn btn-teal btn-sm">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                            <img src="imgfortravel/travel12.jpeg" alt="" class="img-fluid">
+                            <div class="card-body">
+                                <h3 class="card-title">Ponidicherry</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dicta laboriosam veritatis temporibus fugit magnam vel modi eos aperiam maiores. Doloribus architecto consectetur perferendis corrupti optio, illum quas tempora laudantium?</p>
+                                <button class="btn btn-teal btn-sm">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                                <img src="imgfortravel/travel13.jpeg" alt="" class="img-fluid">
+                                <div class="card-body">
+                                    <h3 class="card-title">Tamilnadu</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dicta laboriosam veritatis temporibus fugit magnam vel modi eos aperiam maiores. Doloribus architecto consectetur perferendis corrupti optio, illum quas tempora laudantium?</p>
+                                    <button class="btn btn-teal btn-sm">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col text-center">
+                     <button class="btn btn-dark btn-lg">
+                        <i class="bi bi-play-fill"></i> Start Booking
+                     </button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+     
+<!--social icons-->
+<section class="p-3 bg-teal text-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Follow Travel Yari</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, cum?</p>
+                <i class="bi bi-facebook bi-5x fa-2x"></i>
+                <i class="bi bi-youtube p-4 fa-2x"></i>
+                <i class="bi bi-twitter p-3 fa-2x"></i>
+                <i class="bi bi-google p-3 fa-2x"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--Photo Gallery-->
+<section class="p-3">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h5 class="display-4 fw-bold">
+                    <span class="text-teal">Photo</span> Gallery
+                </h5>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, ducimus.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="imgfortravel/images (1).jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="imgfortravel/img2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="imgfortravel/img4.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="imgfortravel/img5.jpeg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-3">
+                <img src="imgfortravel/img7.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="imgfortravel/img8.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="imgfortravel/img10.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="imgfortravel/images.jpeg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-3">
+                <img src="imgfortravel/images.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="imgfortravel/img5.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="imgfortravel/img14.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="imgfortravel/img15.webp" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--contact-section-->
+<section class="p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body bg-teal text-center text-white">
+                        <i class="bi bi-envelope-fill"></i>
+                        <h2>Contact For Bookings</h2>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima at dicta adipisci dolorem aspernatur, nihil quasi obcaecati modi perspiciatis optio odit quos id eligendi sequi magni mollitia, facilis quas ratione.</p>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h3>Location</h3>
+                    </li>
+
+                    <li class="list-group-item">
+                        Travel Yari Pvt Ltd
+                    </li>
+
+                    <li class="list-group-item">
+                         Jubilee Hill,Hyderabad
+                    </li>
+
+                    <li class="list-group-item">
+                        Telangana,India
+                   </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-teal text-white text-center">
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="card-body bg-light">
+                      <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="Email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="Number" class="form-control" placeholder="Mobile Number">
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" placeholder="Loved Destination">
+                        </div>
+                        <textarea class="form-control mt-3" rows="2" placeholder="Your Description"></textarea>
+                      </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Footer section-->
+<footer class="p-3 bg-teal text-white text-center mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Copyright &copy; 2023 , Travel Yari Pvt Ltd</h3>
+                <h6>All Right Reserved</h6>
+                <h6>Developed & Maintained by UiBrains Technology</h6>
+            </div>
+        </div>
+    </div>
+
+    <!--bootstrap js files-->
+    <script src="bootstrap1/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap1/js/bootstrap.js"></script>
+    <script src="bootstrap1/js/bootstrap.min.js"></script>
+    <script>
+    
+    </script>
+
+</footer>
+</body>
+</html>
