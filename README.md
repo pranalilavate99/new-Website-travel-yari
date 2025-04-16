@@ -9,7 +9,6 @@
 ![Screenshot 2025-04-11 150822](https://github.com/user-attachments/assets/d5e5a249-995b-4ce0-9d11-47ba4be6c45d)
 
 
-![Screenshot 2025-04-11 151608](https://github.com/user-attachments/assets/61cab02f-e863-4dd4-8fbf-ba5894c07463)
 
 
-![Screenshot 2025-04-16 151551](https://github.com/user-attachments/assets/dc0936eb-ff86-4cc9-b235-ad7f73feaa55)
+
